@@ -1,0 +1,55 @@
+{
+    "name": "aitbella/cosmed",
+    "description": "package for cosmed",
+    "keywords": [
+        "aitbella",
+        "cosmed"
+    ],
+    "homepage": "https://github.com/aitbella/cosmed",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "modfayz",
+            "email": "modfayz@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.4",
+        "laravel/breeze":"^1.6",
+        "psr/simple-cache":"^2.0",
+        "maatwebsite/excel":"^3.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Aitbella\\Cosmed\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aitbella\\Cosmed\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aitbella\\Cosmed\\CosmedServiceProvider"
+            ],
+            "aliases": {
+                "Cosmed": "Aitbella\\Cosmed\\CosmedFacade"
+            }
+        }
+    }
+}
