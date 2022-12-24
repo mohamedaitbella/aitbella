@@ -130,7 +130,7 @@
                                                 {{__('Message')}} :</p>
                                             <p
                                                 style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">
-                                                {{ __("Un visiteur du site Nom_site, vous a envoyé le message suivant via le formulaire de contact") }}</p>
+                                                {{ __("cosmed::fr.email_head",['Nom_site'=>env('APP_NAME',"cosmed")]) }}</p>
                                             
                                             <p
                                                 style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">

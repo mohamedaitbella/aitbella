@@ -75,5 +75,6 @@ return [
     "You are receiving this email because we received a password reset request for your account." => "Vous recevez cet e-mail car nous avons reçu une demande de réinitialisation de mot de passe pour votre compte.",
     "You're logged in!" => "Vous êtes connecté(e) !",
     "Your email address is unverified." => "Votre adresse e-mail n'est pas vérifiée.",
-    "message_remercions" => "Nous vous remercions pour votre intérêt, votre message a été envoyé."
+    "message_remercions" => "Nous vous remercions pour votre intérêt, votre message a été envoyé.",
+    "email_head" =>"Un visiteur du site :Nom_site, vous a envoyé le message suivant via le formulaire de contact"
 ];

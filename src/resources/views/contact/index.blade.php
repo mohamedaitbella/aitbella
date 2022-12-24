@@ -1,6 +1,6 @@
 @extends('cosmed::layouts.master')
 
-@section('title', 'Contact')
+@section('title', 'Cosmed – Contact')
 @section('description',
     'Pour nous contacter : Cosmed, Route Jilabal N°88, Rabat, Maroc Tél : 035 9767 909, Fax : 11 11
     11 11 11')
@@ -16,6 +16,7 @@
                 </h1> 
             </div>
         @else
+            <h1 class="text-4xl font-bold mt-5">Contact</h1>
             <p class="text-base font-light leading-relaxed mt-0 mb-8  mt-12  ">
                 {{ __('Vous souhaitez nous contacter ? nous vous remercions de remplir le formulaire suivant') }}</p>
             <div class="flex flex-wrap w-full">
