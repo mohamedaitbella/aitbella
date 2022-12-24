@@ -17,7 +17,10 @@ php artisan migrate     //générer des tables de base de données
 
 php artisan db:seed      //Ajouter tout les pays et la list des Destinataire
 
+
+npm run build           //pour générer des feuilles de style
 ```
+
 
 ## Publication des fichiers /  override le fichier de menu Breeze
 ```bash
@@ -70,7 +73,8 @@ php artisan cosmed:admin
 
 ```
 
-### pour ce connecté visité le lien  /login
+### pour vous connecter visitez le lien :  /login
+### pour consulter le formulair visiter :  /cosmed-contact.html
 
 
 ### l'e-mail a été testé avec mailtrap.io :white_check_mark:
