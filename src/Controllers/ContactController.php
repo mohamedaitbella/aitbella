@@ -14,7 +14,7 @@ use Carbon\Carbon;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Redirect;
-use Maatwebsite\Excel\Facades\Excel;
+use Rap2hpoutre\FastExcel\FastExcel;
 
 class ContactController extends Controller
 {
@@ -79,7 +79,7 @@ class ContactController extends Controller
        
         $naming = env("APP_NAME"). "_contacts_". Carbon::now()->format('jmYhs');
 
-        return Excel::download(new ContactExport($arrays), $naming.'.xlsx');
+        return (new FastExcel($arrays))->download($naming.'.xlsx');
 
     }
 

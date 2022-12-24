@@ -73,13 +73,12 @@ php artisan cosmed:admin
 ### pour ce connecté visité le lien  /login
 
 
-
 ### l'e-mail a été testé avec mailtrap.io :white_check_mark:
 ### package  a été testé avec laravel 9 :white_check_mark:
 
 
 ###  les Packages extern utilisés sont
-- [Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel)
+- [fast-excel](https://github.com/rap2hpoutre/fast-excel)
 
 # questions  ?
 1.3 Définition des données  ==> Qu'est-ce qu'un champ Administrable ?
