@@ -40,7 +40,7 @@ php artisan vendor:publish --tag=cosmed-lang
 ```
 
 ## Utilisation
-#### nom du l'application dans .env file
+#### changer le nom du l'application dans .env file
 
 ```php
     APP_NAME=cosmed 
