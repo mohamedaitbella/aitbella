@@ -30,6 +30,11 @@ php artisan vendor:publish --tag=cosmed-breeze --force
 php artisan vendor:publish --tag=cosmed-lang
 
 ```
+#### Changer la langue locale en français  dans config/app.php 
+
+```php
+    'locale' => 'fr',
+```
 
 ## Utilisation
 #### nom du l'application dans .env file
@@ -37,6 +42,8 @@ php artisan vendor:publish --tag=cosmed-lang
 ```php
     APP_NAME=cosmed 
 ```
+
+
 ### ajouter les paramètres des mailings et l'email par défaut pour l'envoi
 ```php
 MAIL_MAILER=smtp
@@ -65,21 +72,20 @@ php artisan cosmed:admin
 
 ### pour ce connecté visité le lien  /login
 
-### Testing
 
-```bash
-php artisan vendor:publish --tag=cosmed-breeze --force
-```
+
+### l'e-mail a été testé avec mailtrap.io :white_check_mark:
+### package  a été testé avec laravel 9 :white_check_mark:
+
 
 ###  les Packages extern utilisés sont
-- [Laravel-Lang](https://github.com/Laravel-Lang/lang)
 - [Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel)
 
 # questions  ?
 1.3 Définition des données  ==> Qu'est-ce qu'un champ Administrable ?
 
 
-## HET THE PACKAGE FROM packagist WEBSITE
+## OBTENEZ LE PACKAGE DU SITE  de packagist.org
 
 [packagist](https://packagist.org/packages/aitbella/cosmed)
 
