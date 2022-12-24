@@ -1,6 +1,6 @@
 @extends('cosmed::layouts.master')
 
-@section('title', 'Cosmed – Contact')
+@section('title', 'Contact')
 @section('description',
     'Pour nous contacter : Cosmed, Route Jilabal N°88, Rabat, Maroc Tél : 035 9767 909, Fax : 11 11
     11 11 11')
