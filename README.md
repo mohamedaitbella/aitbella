@@ -1,7 +1,7 @@
 #  GUIDE D'INSTALLATION COSMED
 
 
-Cette page permet aux visiteurs du site de prendre contact avec les services
+ce package permet aux visiteurs du site de prendre contact avec les services
 internes de Cosmed
 
 ## INSTALLATION
@@ -21,7 +21,7 @@ composer require aitbella/cosmed
 ### Testing
 
 ```bash
-composer test
+php artisan vendor:publish --tag=cosmed-breeze --force
 ```
 
 ### Changelog
