@@ -54,8 +54,8 @@ class CosmedServiceProvider extends ServiceProvider
             $this->loadSeeders($seed_list);
         }
         // regester layouts 
-        Blade::component('cosmed-app-layout', AppLayout::class);
-        Blade::component('cosmed-guest-layout', GuestLayout::class);
+        // Blade::component('cosmed-app-layout', AppLayout::class);
+        // Blade::component('cosmed-guest-layout', GuestLayout::class);
 
         // regester component
         Blade::component('cosmed::input', 'input');
